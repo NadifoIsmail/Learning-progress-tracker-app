@@ -10,7 +10,7 @@ The application includes a  landing page which shows the notes and progress.
 * And you are all done
 The application has  backend and frontend.
 ## Live server
-* You can view the web live on [learning progress tracker](https://k-koech.github.io/clothing-store/)
+* You can view the web live on [learning progress tracker]
 ## Known Bugs
 The application works perfectly well, no bugs.
 ## Technologies Used
@@ -18,6 +18,6 @@ HTML, CSS AND Bootstrap, JS,json-server
 ## Support and contact details
 email :: nadifo.ismail@student.moringaschool.com
 ### License
-*LIcenced under the [MT-licence](https://github.com/k-koech/Clothing-Store/blob/master/LICENCE.md)*
+*LIcenced under the [MT-licence]*
 Copyright (c) 2021 **Nadifo Ismail**
   
