@@ -10,7 +10,7 @@ The application includes a  landing page that shows the notes and progress.
 * And you are all done
 The application has  a backend and a frontend.
 ## Live server
-* You can view the web live on [learning progress tracker]
+* You can view the web live on [learning progress tracker](https://nadifoismail.github.io/Learning-progress-tracker-app/)
 ## Known Bugs
 The application works perfectly well, with no bugs.
 ## Technologies Used
