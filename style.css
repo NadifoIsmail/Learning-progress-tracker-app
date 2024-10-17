@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 230, 210);
+}
+
+nav img{
+    width:50px;
+    margin-left:5px;
+}
+
+.header{
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family:fantasy;
+    height:30px;
+    display: flex;
+    justify-content: center;
+
+}
+h4{
+    font-style: italic;
+    text-decoration:underline;
+}

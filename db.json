@@ -1,0 +1,66 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "Python is a high-level, interpreted programming language known for its readability and versatility.",
+      "subject": "Python programming langauge",
+      "image": "https://m.media-amazon.com/images/I/61RkpyzjQfL._AC_UF1000,1000_QL80_.jpg",
+      "topics": "Data Types, Functions",
+      "resources": "https://docs.python.org/3/"
+    },
+    {
+      "id": "2",
+      "content": "Java is an object-oriented programming language commonly used for building enterprise-level applications.",
+      "subject": "Java programming language",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9JeMp111pCrRdGhvC_yffK1JyIgvpRQcEGw&s",
+      "topics": "Object-Oriented Principles , Control Structures",
+      "resources": "https://docs.oracle.com/javase/tutorial/"
+    },
+    {
+      "id": "3",
+      "content": "C++ is a powerful object-oriented programming language used for system/software development and game programming.",
+      "subject": "C++ Programming Language",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfKhD0NohkWa3RE1CqbnhEIXT9kUfgbPKUCA&s",
+      "topics": "Memory Management,Pointers",
+      "resources": "https://en.cppreference.com/w/"
+    },
+    {
+      "id": "4",
+      "content": "JavaScript is a high-level, dynamic language commonly used for creating interactive web applications.",
+      "subject": "Javascript programming language",
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781638353423/get-programming-with-javascript-9781638353423_hr.jpg",
+      "topics": "Event Handling ,Variables,Functions",
+      "resources": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    }
+  ],
+  "progress": [
+    {
+      "id": "1",
+      "unit": "Python",
+      "completionPercentage": 40,
+      "topicsCompleted": "Data Types",
+      "totalTopics": 2
+    },
+    {
+      "id": "2",
+      "unit": "Java",
+      "completionPercentage": 65,
+      "topicsCompleted": "Control structures",
+      "totalTopics": 2
+    },
+    {
+      "id": "3",
+      "unit": "C++",
+      "completionPercentage": 50,
+      "topicsCompleted": "Memory Management",
+      "totalTopics": 2
+    },
+    {
+      "id": "4",
+      "unit": "JavaScript",
+      "completionPercentage": 60,
+      "topicsCompleted": "Event Handling",
+      "totalTopics": 2
+    }
+  ]
+}
