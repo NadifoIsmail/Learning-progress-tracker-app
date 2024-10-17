@@ -6,7 +6,7 @@ fetch('http://localhost:3000/notes')
         const notes = document.getElementById("notes");
         notes.innerHTML +=  `
             <div class="col-md-3 mb-2 ">
-            <div class="p-1">
+            <div class=" p-1">
             <img src=${note.image} class="img-fluid " width="200vw" "height="60vh"/>
             <h5>${note.subject}</h5>
             <p>${note.content}</p>
