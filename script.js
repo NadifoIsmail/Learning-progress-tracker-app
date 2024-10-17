@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/notes')
+fetch('https://learning-progress-tracker-app.onrender.com/notes')
   .then((res) => res.json())
   .then((notes) => {
 
@@ -35,7 +35,7 @@ addNote.addEventListener("submit", (e) => {
  const resources = document.getElementById("resources").value;
 
 
- fetch('http://localhost:3000/notes', {
+ fetch('https://learning-progress-tracker-app.onrender.com/notes', {
     method: 'POST',
     body: JSON.stringify({
       content: content,
@@ -57,7 +57,7 @@ addNote.addEventListener("submit", (e) => {
 
 //update notes
 function editMyNote(id){
-    fetch(`http://localhost:3000/notes/${id}`)
+    fetch(`https://learning-progress-tracker-app.onrender.com/notes/${id}`)
   .then((res) => res.json())
   .then((note) => {
      
@@ -139,7 +139,7 @@ function editMyNote(id){
     const topics = document.getElementById("edit_topics").value;
     const resources = document.getElementById("edit_resources").value;
 
-    fetch(`http://localhost:3000/notes/${id}`, {
+    fetch(`https://learning-progress-tracker-app.onrender.com/notes/${id}`, {
         method: 'PATCH',
         body: JSON.stringify({
             content: content,
@@ -163,7 +163,7 @@ function editMyNote(id){
 //delete notes
 function deleteNote(id){
 
-    fetch(`http://localhost:3000/notes/${id}`, {
+    fetch(`https://learning-progress-tracker-app.onrender.com/notes/${id}`, {
         method: 'DELETE',
       })
       .then((res)=> res.json() )
@@ -174,7 +174,7 @@ function deleteNote(id){
 
 //single note
 function singleNote(id){
-    fetch(`http://localhost:3000/notes/${id}`)
+    fetch(`https://learning-progress-tracker-app.onrender.com/notes/${id}`)
   .then((res) => res.json())
   .then((note) => {
 
@@ -196,7 +196,7 @@ function singleNote(id){
 }
 
 //progress 
-fetch('http://localhost:3000/progress')
+fetch('https://learning-progress-tracker-app.onrender.com/progress')
   .then((res) => res.json())
   .then((data) => {
     data.forEach(progress =>{
@@ -226,7 +226,7 @@ fetch('http://localhost:3000/progress')
     const total_topics = document.getElementById("total_topics").value;
 
     
-    fetch('http://localhost:3000/progress', {
+    fetch('https://learning-progress-tracker-app.onrender.com/progress', {
         method: 'POST',
         body: JSON.stringify({
          unit:unit,
@@ -248,7 +248,7 @@ fetch('http://localhost:3000/progress')
    //update progress
    function updateProgress(id){
 
-    fetch(`http://localhost:3000/progress/${id}`)
+    fetch(`https://learning-progress-tracker-app.onrender.com/progress/${id}`)
   .then((res) => res.json())
   .then((progress) => {
 
@@ -312,7 +312,7 @@ fetch('http://localhost:3000/progress')
     const topicsCompleted = document.getElementById("edit_topics_completed").value
     const totalTopics = document.getElementById("edit_total_topics").value
 
-    fetch(`http://localhost:3000/progress/${id}`, {
+    fetch(`https://learning-progress-tracker-app.onrender.com/progress/${id}`, {
         method: 'PATCH',
         body: JSON.stringify({
           unit:unit,
