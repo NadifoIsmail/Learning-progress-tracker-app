@@ -15,7 +15,7 @@ The application includes a  landing page that shows the notes and progress.
 ## Known Bugs
 The application works perfectly well, with no bugs.
 ## Technologies Used
-HTML, CSS AND Bootstrap, JS,JSON-server
+HTML, CSS AND Bootstrap, JS, json-server
 ## Support and contact details
 email:: nadifo.ismail@student.moringaschool.com
 ### License
