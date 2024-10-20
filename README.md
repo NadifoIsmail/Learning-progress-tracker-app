@@ -20,5 +20,5 @@ HTML, CSS AND Bootstrap, JS, json-server
 email:: nadifo.ismail@student.moringaschool.com
 ### License
 *LIcenced under the [MT-licence](https://github.com/NadifoIsmail/Learning-progress-tracker-app/blob/main/LICENCE.md)*
-Copyright (c) 2021 **Nadifo Ismail**
+Copyright (c) 2024 **Nadifo Ismail**
   
