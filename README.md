@@ -11,7 +11,7 @@ The application includes a  landing page that shows the notes and progress.
 ## Live server
 * You can view the web live on [learning progress tracker](https://nadifoismail.github.io/Learning-progress-tracker-app/)
 ## Slide Link
-* Here is the link to the presentation slide 
+* Here is the link to the [presentation slide] (https://docs.google.com/presentation/d/1Bn1uufttJs0zSvRsc9Fv_kG6AVye6WYXlV2QLcbTrzs/edit?usp=sharing)
 ## Known Bugs
 The application works perfectly well, with no bugs.
 ## Technologies Used
